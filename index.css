@@ -1,0 +1,62 @@
+body {
+    background-image: url("running-track.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    font-family:Courier New, Courier, monospace;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 4px black;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+#increment-btn {
+    background: black;
+}
+
+#save-btn {
+    background: white;
+    color: black;
+}
+
+#increment-btn:hover {
+    background: grey;
+    color: black;
+}
+
+#save-btn:hover {
+    background: grey;
+    color: white;
+}
+
+div {
+    max-width: 500px; 
+    margin: 25% auto;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
